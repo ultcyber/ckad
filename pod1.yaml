@@ -15,4 +15,3 @@ spec:
       periodSeconds: 2
       successThreshold: 1
       failureThreshold: 1
-~                                  
