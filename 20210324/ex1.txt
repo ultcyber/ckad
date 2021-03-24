@@ -1,0 +1,5 @@
+1. Stwórz deployment -> dwa kontenery jeden busybox komenda 
+"while true; do echo 'Hi I am from Main container' >> /var/log/index.html; sleep 5; done"
+volume emptyDir na ścieżce /var/log
+drugi nginx volume na ścieżce - /usr/share/nginx/html
+2. Zrób tak, żeby dało się curlować na localhost
