@@ -1,0 +1,3 @@
+Create a pod called secbusybox with the image busybox which executes command sleep 3600 and makes sure any Containers in the Pod, all processes run with user ID 1000 and with group id 2000 and verify.
+
+Create the same pod as above this time set the securityContext for the container as well and verify that the securityContext of container overrides the Pod level securityContext

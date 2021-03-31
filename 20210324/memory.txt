@@ -1,0 +1,1 @@
+Create a Pod nginx and specify a memory request and a memory limit of 100Mi and 200Mi respectively
